@@ -1,0 +1,29 @@
+.gird-item{
+    background-color: gray;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+.gird-container{
+    display: grid ;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+.gird-container1{
+    display: grid ;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+h1{
+    text-align: center;
+}
+/* 
+    grid-template-columns: repeat(ចំនួន column , 1fr)
+    grid-gap: 10px; -> ដើម្បីដាក់គម្លាតឲ្យចេញមួយ columnៗ
+
+    note:
+    - grid: ជាប្រភេទប្រអប់ or box 
+    - បើ grid យ់ើងលើសចំនួនដែលកំណត់វានឹងចុះទៅ 1 row
+*/
